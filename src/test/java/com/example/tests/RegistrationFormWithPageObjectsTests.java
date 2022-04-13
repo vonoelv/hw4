@@ -47,7 +47,6 @@ public class RegistrationFormWithPageObjectsTests {
 
     @Test
     void fillFormTest() {
-        System.out.println(subject);
         registrationFormPage
                 .openPage()
                 .setFirstName(firstName)
